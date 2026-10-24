@@ -1,0 +1,416 @@
+{
+    "auxiliary": {
+        "availablePages": "15982 MB",
+        "availableRam": "979 MB",
+        "availableVirtualMemory": "134213452 MB",
+        "cores": 16,
+        "cpuAgentCount": 0,
+        "cpuFamily": 25,
+        "cpuModel": 68,
+        "cpuModelName": "AMD Ryzen 9 6900HX with Radeon Graphics",
+        "cpuTopology": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                5,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                9,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                11,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                12,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                13,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                14,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                15,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "guest": false,
+        "guestKallsyms": "",
+        "guestKmodules": "",
+        "guestPid": 0,
+        "guestSymPaths": "",
+        "host": false,
+        "hypervisorEnabled": true,
+        "hypervisorVendor": "Microsoft Hyper-V",
+        "ibsIdentifiers": 0,
+        "ibsOpSampling": false,
+        "isCacheline": false,
+        "isFreqMode": false,
+        "issmtEnabled": true,
+        "onlineCores": 16,
+        "osName": "Win1123H2-64",
+        "p0Freq": 0,
+        "profScope": "Single Application",
+        "profiledPids": "",
+        "totalPages": "37132 MB",
+        "totalRam": "15628 MB",
+        "totalVirtualMemory": "134217727 MB"
+    },
+    "categoriesCollected": [
+        "livePower"
+    ],
+    "collectCommand": "",
+    "collection": {
+        "branch-filter": 511,
+        "callstack": {
+            "callstackSize": 0,
+            "fpo": false,
+            "interval": 0,
+            "scope": 0,
+            "unwindDepth": 0
+        },
+        "dataBufferCount": 0,
+        "events": {
+            "configName": "",
+            "configType": 0,
+            "cpuTraceSourceMask": 0,
+            "ibsEvents": {
+                "cacheAnalysis": false,
+                "fetch": false,
+                "fetchCallstack": true,
+                "fetchInterval": 0,
+                "fetchL3Miss": false,
+                "loadStoreOnly": false,
+                "op": false,
+                "opCallstack": true,
+                "opCycleCount": false,
+                "opInterval": 0,
+                "opL3Miss": false,
+                "randomize": true
+            },
+            "pmcEvents": null,
+            "predefinedProfileType": 3,
+            "samplingModeMask": 0
+        },
+        "flags": {
+            "cssDefaultValues": false,
+            "defaultBranchAnalysis": false,
+            "hasCallstack": false,
+            "maxDataFileSize": 0,
+            "perEventCSSDefault": false,
+            "profileMpi": false,
+            "pythonTraceOptions": false,
+            "traceMpi": false,
+            "traceMpiMode": 0,
+            "traceOpenmp": false,
+            "traceOpenmpMode": 0,
+            "traceOpenmpType": 0
+        },
+        "globalFrequency": 0,
+        "globalSamplingInterval": 1000,
+        "hostP0Freqs": [
+            {
+                "host": "Yashoe-laptop",
+                "p0Freq": 3301.0
+            }
+        ],
+        "hotspotsProfilingSignal": -1,
+        "lbr": false,
+        "livePower": {
+            "counterList": [
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 48,
+                    "name": "Socket0 Package Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 50,
+                    "name": "Core0 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 52,
+                    "name": "Core1 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 54,
+                    "name": "Core2 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 56,
+                    "name": "Core3 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 58,
+                    "name": "Core4 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 60,
+                    "name": "Core5 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 62,
+                    "name": "Core6 Power",
+                    "unit": 6
+                },
+                {
+                    "category": "Power",
+                    "categoryId": 0,
+                    "counterId": 64,
+                    "name": "Core7 Power",
+                    "unit": 6
+                }
+            ]
+        },
+        "mmapBuffer": 0,
+        "schedule": {
+            "elapsed": 0,
+            "end": 0,
+            "endTs": "",
+            "profileCollectionDataLimitType": 0,
+            "profileDuration": 330,
+            "start": 0,
+            "startDelay": 0,
+            "startTs": "",
+            "type": 1
+        },
+        "sessionVersion": 6,
+        "target": {
+            "appArgs": "",
+            "coreAffinity": "0",
+            "coreMask": "0",
+            "gpuCollectAgentVersion": 0,
+            "gpuFamily": "",
+            "gpuRocprofVersion": 0,
+            "launchApp": "",
+            "profileCores": false,
+            "systemWide": true,
+            "terminateApp": false,
+            "workingDir": "C:\\Users\\yash0"
+        }
+    },
+    "deviceInfo": {
+        "keys": [
+            0
+        ],
+        "values": [
+            {
+                "keys": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "values": [
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ],
+                    [
+                        0,
+                        3301000000
+                    ]
+                ]
+            }
+        ]
+    },
+    "hpc": {
+        "hostName": "Yashoe-laptop"
+    },
+    "profileType": 64,
+    "reportCommand": "",
+    "translateCommand": ""
+}
